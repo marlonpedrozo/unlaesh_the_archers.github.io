@@ -1,0 +1,717 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+@font-face {
+    font-family:'linowrite';
+    src: url(fonts/linowrite.ttf) format('truetype');
+}
+@font-face {
+    font-family:'SourceCodePro';
+    src: url('fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    background-color: #0F0706;
+    text-align: center;
+}
+
+.topo-banner{ 
+   height: 1000px;
+   max-width: 100%;
+   background-image:url('img/banner\ topo.jpg');
+   background-position: center ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+} 
+
+ 
+.navegacao{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    
+}
+.navegacao ul{ 
+    margin: auto;
+    max-width: 900px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+   
+     
+}
+.navegacao ul li,
+.navegacao ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style:none;
+    color: #e7D0BA;
+    font-family:'source code pro';
+    font-size: 12px;
+    letter-spacing: 0.3em;
+}
+
+.navegacao ul li,
+.navegacao ul li a:hover{
+     color: #fff;
+     cursor: pointer; 
+}
+.subir-bnt:hover{ 
+     cursor: pointer; 
+     background-color: #e7D0BA;
+    color: #0F0706;
+    font-weight: bold;
+    transition: all 0.5s;
+    
+}
+ .tour-tickets a:hover{
+    background-color: #e7D0BA;
+    color: #0F0706;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.mouse:hover{
+    background-color: #e7D0BA;
+    color: #0F0706;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+
+.navegacao span img{
+    margin: 10px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+.acoustipex{
+  margin-top: 200px;
+
+}
+
+.acoustipex h2{
+    color:#ffffff;
+    font-size: 22px;
+   
+}
+.acoustipex p{
+    padding: 20px;
+    color:#fff;
+    margin:20px;
+    font-size: 16px;
+    padding-bottom: 60px;
+    
+   
+     
+}
+.acoustipex a{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin: 50px;
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 0.2em;
+    font-family: 'linowrite';
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 15px;
+}
+span h2{
+    font-size: 36px;
+}
+ 
+ .merch img{
+    height: 550px;
+    width: 550px;
+    margin: 10px;  
+ }
+ .merch iframe{ 
+    width: 500px;
+    height: 280px;
+    
+    margin: 10px;
+ }
+
+ .foto-banda{
+    max-width: 1000px;
+    margin: 50px;
+ }
+
+ .sobre{
+    margin: auto;
+    max-width: 1200px;
+    padding: 50px;
+ }
+ 
+ .sobre p{
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    line-height:2em;
+    width: 800px;
+    text-align: justify;
+    font-family:'SourceCode';
+    padding-bottom:10px;
+ }
+ .sobre .vocals{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    color: #fff
+
+ }
+
+ .redes-sociais{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+
+ .redes-sociais h2{
+    font-size: 36px;
+    
+ }
+ .redes-sociais img{
+    border-radius: 2px;
+    height: 550px;
+    width: 550px;
+    margin: 20px;
+ }
+
+ .botao {
+    margin: 200px;
+ }
+ .botao a{
+    border: 2px solid #e7D0BA;
+    color: #e7D0BA;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 50px;
+ }
+
+ p{
+     font-family:'SourceCodePro';
+    color: blue;
+ }
+
+
+ 
+.tour-data{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.tour-data .tour-tickets a{
+    border: #fff 2px solid;
+    padding: 10px;
+    text-align: justify;
+    color: #bd6819;
+}
+
+.tour{
+    margin-top: 30px;
+    max-height: 1000px; 
+    background-image: url(img/banner\ tour.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tour h2{
+    color: #fff;
+    margin: auto;
+    padding: 50px;
+    font-family:'linowrite';
+}
+.tour-navegacao{
+    background: rgba(0, 0, 0, 0.5);
+    height: 1000px;
+}
+
+.tour-navegacao ul{
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.tour-navegacao ul li{
+    font-size: 10px;
+    width: 1000px;
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style:none;
+    color: #fff;
+    font-family:'source code pro';
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    align-items: center;
+    border-bottom:1px solid #eee;
+     
+}
+.tour-navegacao ul li a{
+    width: 350px;  
+    text-align: left;
+    color: #e7D0BA;
+    text-decoration: none;
+    
+}
+.tour-data .tour-local{
+    color: #fff;
+    font-weight: bold;
+}
+.tour-navegacao p{
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tour-navegacao .tour-tickets a{
+    color: #fff;
+}
+  
+.foto-instagram{
+    display: block;
+    max-width: 700px;
+   
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.foto-instagram img{
+  
+    height: 300px;
+    width: 300px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    height: 100px;
+    margin: auto;
+    width: 600px;
+}
+footer ul li img{
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+footer p{
+    color: #e7D0BA;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.carrossel-foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     
+    overflow-y:auto;
+    width: 100%;
+}
+
+.carrossel-foto img{
+    max-width: 100vw;
+}
+
+.subir-bnt {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    display: flex;
+    position: fixed; 
+    background-color: #000;
+    right: 20px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+.subir-bnt p,.subir-bnt p a {
+color: white;
+margin: auto;
+text-decoration: none;
+font-size: 13px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/*início da parte responsiva*/
+ 
+@media(max-width:760px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        color: #fff;
+    }
+    .topo-banner{ 
+       height: 1000px;
+       width: 360px;
+       background-image:url('img/banner\ topo.jpg');
+       background-position: center;
+       
+    } 
+    
+     
+    .navegacao{
+        background: rgba(0, 0, 0, 0.5); 
+    }
+    .navegacao ul{ 
+        display: none;
+        margin: auto;
+        max-width: 900px;
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+       
+         
+    }
+    .navegacao ul li,
+    .navegacao ul li a{
+        display: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        list-style:none;
+        color: #e7D0BA;
+        font-family:'source code pro';
+        font-size: 12px;
+        letter-spacing: 0.3em;
+    }
+    .navegacao ul li,
+    .navegacao ul li a:hover{
+         color: #fff;
+         cursor: pointer; 
+    }
+    .subir-bnt:hover{ 
+         cursor: pointer; 
+         background-color: #e7D0BA;
+        color: #0F0706;
+        font-weight: bold;
+        transition: all 0.5s;
+    }
+     .tour-tickets a:hover{
+        background-color: #e7D0BA;
+        color: #0F0706;
+        font-weight: bold;
+        transition: all 0.5s;
+    }
+    
+    .mouse:hover{
+        background-color: #e7D0BA;
+        color: #0F0706;
+        font-weight: bold;
+        transition: all 0.5s;
+    }
+    
+     
+    .navegacao span img{
+        margin: 10px;
+        width: 130px;
+        opacity: 0.5;
+    }
+    
+    .acoustipex{
+      margin-top: 200px;
+    }
+
+    
+    .acoustipex h2{
+        color:#ffffff;
+        font-size: 36px;
+       
+    }
+    .acoustipex p{
+        padding: 20px;
+        color:#fff;
+        margin:20px;
+        font-size: 16px;
+        padding-bottom: 60px;
+        
+       
+         
+    }
+    .acoustipex a{
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 15px;
+        padding: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2{
+        margin: 50px;
+        font-size: 60px;
+        color: #fff;
+        letter-spacing: 0.2em;
+        font-family: 'linowrite';
+        text-transform: uppercase;
+    }
+    
+    span{
+        font-size: 15px;
+    }
+    span h2{
+        font-size: 36px;
+    }
+     
+     .merch img{
+       max-width: 360px;
+       max-height:360px ;
+       
+     }
+     .merch iframe{    
+        width: 500px;
+        height: 280px;
+        margin: 10px;
+     }
+    
+     .foto-banda{
+        max-width: 360px;
+        margin: 42px auto;
+     }
+
+     .sobre h2{
+        text-align: left;
+        max-width: 360px;
+        font-size: 30px;
+         
+     }
+    
+     .sobre{   
+        margin-top: 1000px;
+        max-width: 360px;
+        padding: 50px;
+        
+     }
+     
+     .sobre p{
+        margin: auto;
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.2rem;
+        line-height:2em;
+        max-width: 360px;
+        text-align: justify;
+        font-family:'SourceCode';
+        padding-bottom:10px;
+     }
+     .sobre .vocals{
+        margin: 20px auto;
+        width: 360px;
+        text-align: left;
+        color: #fff
+    
+     }
+     
+    
+     .botao{
+        width: 350px;
+        margin: 60px auto;
+    }
+     
+     p{
+         font-family:'SourceCodePro';
+        color: blue;
+     } 
+     
+    .tour-data{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        font-size: 10px;
+        justify-content: space-between;
+       
+    }
+
+    .tour-data a{
+        margin: 10px;   
+        padding: 6px;
+        text-align: justify;
+        letter-spacing: 0.3rem;
+        font-size: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tour-tickets{
+        display: flex;
+        align-items: center;
+       
+    }
+    
+    .tour-data .tour-tickets a{
+        width: 100px;
+        border: #fff 2px solid;
+        padding: 12px;
+        text-align: center;
+    }
+    
+    .tour{
+        margin-top: 30px;
+        max-height: 1000px;
+        max-width:500px;
+        background-image: url(img/banner\ tour.jpg);
+        
+    }
+    .tour h2{
+        color: #fff;
+        padding: 50px;
+        font-family:'linowrite';
+    }
+    .tour-navegacao{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .tour-navegacao ul{
+        max-width: 1000px;
+        height: 500px;
+        margin: auto;
+        display: block;
+    }
+    .tour-navegacao ul li{
+        font-size: 10px;
+        width: 360px;
+        padding: 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        list-style:none;
+        color: #fff;
+        font-family:'source code pro';
+        font-size: 12px;
+        letter-spacing: 0.3em;
+        align-items: center;
+        border-bottom: 1px solid gray;     
+    }
+    .tour-navegacao ul li a{
+        display: flex;
+        align-items: center;
+        width: 350px;  
+        text-align: center;
+        color: #e7D0BA;
+        text-decoration: none;
+        
+    }
+    .tour-data .tour-local{
+        
+        color: #fff;
+        font-weight: bold;
+        padding: 12px;
+    }
+    .tour-navegacao p{
+        color: #fff;
+        padding: 12px;
+        font-weight: bold;
+    }
+    
+    .tour-navegacao .tour-tickets a{
+        color: #fff;   
+    }
+      
+    .redes-sociais{
+        text-align: center;
+        display: flex;
+        max-width: 360px;
+        flex-direction: column;
+        justify-content: left;
+        flex-wrap: wrap;
+        margin: auto;
+        
+    }
+    .redes-sociais h2{
+        width: 360px;
+        text-align: center;
+         
+    }
+     
+    .foto-instagram img{
+        
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border-radius: 2px;
+    }
+    
+   
+    .rodape{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 400px;
+        align-items: center;
+        margin: auto ;
+        padding-left: 60px;
+    }
+
+    footer p{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        max-width: 400px;
+        justify-content: center;
+    }
+
+  
+    .carrossel-foto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+         
+        overflow-y:auto;
+        width: 100%;
+    }
+    
+    .carrossel-foto img{
+        max-width: 100vw;
+    }
+    
+    .subir-bnt {
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+        display: none;
+        position: fixed; 
+        background-color: #000;
+        right: 20px;
+        bottom: 0px;
+        border-radius: 50%;
+    }
+    .subir-bnt p,.subir-bnt p a {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+}
+/*fim da parte responsiva*/
